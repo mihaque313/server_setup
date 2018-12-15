@@ -1,0 +1,9 @@
+DEPENDENCIES
+  server_setup
+    path: .
+    metadata: true
+
+GRAPH
+  server_setup (0.1.0)
+    tar (>= 0.0.0)
+  tar (2.2.0)
