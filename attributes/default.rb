@@ -4,4 +4,4 @@ default['tomcat_v9']['tomcat_install_dir']="/opt/tomcat"
 default['tomcat_v9']['tomcat_user']="tomcat"
 default['tomcat_v9']['tomcat_auto_start']="true"
 # default['java']['java_home']='/usr/lib/jvm/java-8-oracle'
-default['java']['java_home']='/usr/lib/jvm/java-8-openjdk-amd64'
+default['java']['java_home']='/usr/lib/jvm/java-11-openjdk-amd64/bin/'

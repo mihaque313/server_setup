@@ -16,9 +16,11 @@ platforms:
   - name: ubuntu-18.04
   # - name: centos-7
     transport:
-      hostname: ec2-13-58-187-248.us-east-2.compute.amazonaws.com
+      hostname: ec2-3-16-38-237.us-east-2.compute.amazonaws.com
       ssh_key: C:\Users\rle0594\Downloads\RHEL_Oct10.pem
       username: ubuntu
+      elevated: true
+
 
 suites:
   - name: default

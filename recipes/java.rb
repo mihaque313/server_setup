@@ -1,6 +1,12 @@
 
-puts "Installing java 8:"
-apt_package 'openjdk-8-jdk' do
+apt_update 'update'
+
+apt_package 'default-jre' do
+  action :install
+  options '-y'
+end
+
+apt_package 'default-jdk' do
   action :install
   options '-y'
 end
@@ -22,3 +28,11 @@ ruby_block 'Set JAVA_HOME in /etc/environment' do
       file.write_file
     end
   end
+
+script 'source /etc/environment' do
+  interpreter 'bash'
+  user 'root'
+  code <<-EOH
+          source /etc/environment
+          EOH
+end
