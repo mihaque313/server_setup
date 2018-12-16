@@ -1,152 +1,0 @@
-I, [2018-12-15T20:24:05.555269 #9404]  INFO -- default-ubuntu-1804: -----> Converging <default-ubuntu-1804>...
-I, [2018-12-15T20:24:05.561493 #9404]  INFO -- default-ubuntu-1804: Preparing files for transfer
-I, [2018-12-15T20:24:05.562296 #9404]  INFO -- default-ubuntu-1804: Preparing dna.json
-I, [2018-12-15T20:24:05.566220 #9404]  INFO -- default-ubuntu-1804: Resolving cookbook dependencies with Berkshelf 7.0.6...
-I, [2018-12-15T20:24:26.140485 #9404]  INFO -- default-ubuntu-1804: Removing non-cookbook files before transfer
-I, [2018-12-15T20:24:26.211991 #9404]  INFO -- default-ubuntu-1804: Preparing validation.pem
-I, [2018-12-15T20:24:26.213977 #9404]  INFO -- default-ubuntu-1804: Preparing client.rb
-I, [2018-12-15T20:24:33.017112 #9404]  INFO -- default-ubuntu-1804: -----> Installing Chef Omnibus (install only if missing)
-I, [2018-12-15T20:24:33.020314 #9404]  INFO -- default-ubuntu-1804: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
-I, [2018-12-15T20:24:33.021268 #9404]  INFO -- default-ubuntu-1804: Trying wget...
-I, [2018-12-15T20:24:33.096810 #9404]  INFO -- default-ubuntu-1804: Download complete.
-I, [2018-12-15T20:24:33.120789 #9404]  INFO -- default-ubuntu-1804: ubuntu 18.04 x86_64
-I, [2018-12-15T20:24:33.352437 #9404]  INFO -- default-ubuntu-1804: Getting information for chef stable  for ubuntu...
-I, [2018-12-15T20:24:33.357414 #9404]  INFO -- default-ubuntu-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=18.04&m=x86_64
-I, [2018-12-15T20:24:33.358594 #9404]  INFO -- default-ubuntu-1804:   to file /tmp/install.sh.1559/metadata.txt
-I, [2018-12-15T20:24:33.359519 #9404]  INFO -- default-ubuntu-1804: trying wget...
-I, [2018-12-15T20:24:33.516945 #9404]  INFO -- default-ubuntu-1804: sha1	27aa243ab6a05b70115357ea1e552a381a65dd85
-I, [2018-12-15T20:24:33.518286 #9404]  INFO -- default-ubuntu-1804: sha256	cb1f032bc9d0031e12464d7b394901fe340d8e8ef6fe4413e125b9e803b3aaf5
-I, [2018-12-15T20:24:33.519603 #9404]  INFO -- default-ubuntu-1804: url	https://packages.chef.io/files/stable/chef/14.8.12/ubuntu/18.04/chef_14.8.12-1_amd64.deb
-I, [2018-12-15T20:24:33.521088 #9404]  INFO -- default-ubuntu-1804: version	14.8.12
-I, [2018-12-15T20:24:33.522264 #9404]  INFO -- default-ubuntu-1804: downloaded metadata file looks valid...
-I, [2018-12-15T20:24:33.536897 #9404]  INFO -- default-ubuntu-1804: downloading https://packages.chef.io/files/stable/chef/14.8.12/ubuntu/18.04/chef_14.8.12-1_amd64.deb
-I, [2018-12-15T20:24:33.537908 #9404]  INFO -- default-ubuntu-1804:   to file /tmp/install.sh.1559/chef_14.8.12-1_amd64.deb
-I, [2018-12-15T20:24:33.538992 #9404]  INFO -- default-ubuntu-1804: trying wget...
-I, [2018-12-15T20:24:34.801146 #9404]  INFO -- default-ubuntu-1804: Comparing checksum with sha256sum...
-I, [2018-12-15T20:24:34.960837 #9404]  INFO -- default-ubuntu-1804: 
-I, [2018-12-15T20:24:34.962366 #9404]  INFO -- default-ubuntu-1804: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2018-12-15T20:24:34.962843 #9404]  INFO -- default-ubuntu-1804: 
-I, [2018-12-15T20:24:34.963074 #9404]  INFO -- default-ubuntu-1804: You are installing an omnibus package without a version pin.  If you are installing
-I, [2018-12-15T20:24:34.963296 #9404]  INFO -- default-ubuntu-1804: on production servers via an automated process this is DANGEROUS and you will
-I, [2018-12-15T20:24:34.963535 #9404]  INFO -- default-ubuntu-1804: be upgraded without warning on new releases, even to new major releases.
-I, [2018-12-15T20:24:34.963769 #9404]  INFO -- default-ubuntu-1804: Letting the version float is only appropriate in desktop, test, development or
-I, [2018-12-15T20:24:34.964654 #9404]  INFO -- default-ubuntu-1804: CI/CD environments.
-I, [2018-12-15T20:24:34.964983 #9404]  INFO -- default-ubuntu-1804: 
-I, [2018-12-15T20:24:34.967299 #9404]  INFO -- default-ubuntu-1804: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
-I, [2018-12-15T20:24:34.967682 #9404]  INFO -- default-ubuntu-1804: 
-I, [2018-12-15T20:24:34.968081 #9404]  INFO -- default-ubuntu-1804: Installing chef 
-I, [2018-12-15T20:24:34.968458 #9404]  INFO -- default-ubuntu-1804: installing with dpkg...
-I, [2018-12-15T20:24:35.005082 #9404]  INFO -- default-ubuntu-1804: Selecting previously unselected package chef.
-I, [2018-12-15T20:24:35.174233 #9404]  INFO -- default-ubuntu-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56473 files and directories currently installed.)
-I, [2018-12-15T20:24:35.175431 #9404]  INFO -- default-ubuntu-1804: Preparing to unpack .../chef_14.8.12-1_amd64.deb ...
-I, [2018-12-15T20:24:35.176427 #9404]  INFO -- default-ubuntu-1804: Unpacking chef (14.8.12-1) ...
-I, [2018-12-15T20:24:39.930900 #9404]  INFO -- default-ubuntu-1804: Setting up chef (14.8.12-1) ...
-I, [2018-12-15T20:24:39.994528 #9404]  INFO -- default-ubuntu-1804: Thank you for installing Chef!
-I, [2018-12-15T20:24:41.688908 #9404]  INFO -- default-ubuntu-1804: Transferring files to <default-ubuntu-1804>
-I, [2018-12-15T20:25:35.641533 #9404]  INFO -- default-ubuntu-1804: Starting Chef Client, version 14.8.12
-I, [2018-12-15T20:25:36.641622 #9404]  INFO -- default-ubuntu-1804: Creating a new client identity for default-ubuntu-1804 using the validator key.
-I, [2018-12-15T20:25:36.909062 #9404]  INFO -- default-ubuntu-1804: resolving cookbooks for run list: ["server_setup::default"]
-I, [2018-12-15T20:25:36.909971 #9404]  INFO -- default-ubuntu-1804: Synchronizing Cookbooks:
-I, [2018-12-15T20:25:36.911074 #9404]  INFO -- default-ubuntu-1804:   - server_setup (0.1.0)
-I, [2018-12-15T20:25:36.912111 #9404]  INFO -- default-ubuntu-1804:   - tar (2.2.0)
-I, [2018-12-15T20:25:36.913282 #9404]  INFO -- default-ubuntu-1804: Installing Cookbook Gems:
-I, [2018-12-15T20:25:36.914223 #9404]  INFO -- default-ubuntu-1804: Compiling Cookbooks...
-I, [2018-12-15T20:25:36.915207 #9404]  INFO -- default-ubuntu-1804: Starting the installation of apache tomcat server.
-I, [2018-12-15T20:25:36.916143 #9404]  INFO -- default-ubuntu-1804: Converging 16 resources
-I, [2018-12-15T20:25:36.919534 #9404]  INFO -- default-ubuntu-1804: Recipe: server_setup::java
-I, [2018-12-15T20:25:36.924912 #9404]  INFO -- default-ubuntu-1804:   * apt_update[update] action periodic
-I, [2018-12-15T20:25:36.926586 #9404]  INFO -- default-ubuntu-1804:     - update new lists of packages
-I, [2018-12-15T20:25:36.928498 #9404]  INFO -- default-ubuntu-1804:     * directory[/var/lib/apt/periodic] action create (up to date)
-I, [2018-12-15T20:25:36.930468 #9404]  INFO -- default-ubuntu-1804:     * directory[/etc/apt/apt.conf.d] action create (up to date)
-I, [2018-12-15T20:25:36.932395 #9404]  INFO -- default-ubuntu-1804:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
-I, [2018-12-15T20:25:45.129061 #9404]  INFO -- default-ubuntu-1804:     * execute[apt-get -q update] action run
-I, [2018-12-15T20:25:45.852766 #9404]  INFO -- default-ubuntu-1804:       - execute ["apt-get", "-q", "update"]
-I, [2018-12-15T20:25:45.853783 #9404]  INFO -- default-ubuntu-1804:   
-I, [2018-12-15T20:26:17.554405 #9404]  INFO -- default-ubuntu-1804:   * apt_package[default-jre] action install
-I, [2018-12-15T20:26:17.555301 #9404]  INFO -- default-ubuntu-1804:     - install version 2:1.10-63ubuntu1~02 of package default-jre
-I, [2018-12-15T20:26:35.094218 #9404]  INFO -- default-ubuntu-1804:   * apt_package[default-jdk] action install
-I, [2018-12-15T20:26:35.095535 #9404]  INFO -- default-ubuntu-1804:     - install version 2:1.10-63ubuntu1~02 of package default-jdk
-I, [2018-12-15T20:26:35.806469 #9404]  INFO -- default-ubuntu-1804:   * directory[/etc/profile.d] action create (up to date)
-I, [2018-12-15T20:26:35.808406 #9404]  INFO -- default-ubuntu-1804:   * template[/etc/profile.d/jdk.sh] action create
-I, [2018-12-15T20:26:35.810761 #9404]  INFO -- default-ubuntu-1804:     - create new file /etc/profile.d/jdk.sh
-I, [2018-12-15T20:26:35.811998 #9404]  INFO -- default-ubuntu-1804:     - update content in file /etc/profile.d/jdk.sh from none to 917e91
-I, [2018-12-15T20:26:35.813716 #9404]  INFO -- default-ubuntu-1804:     --- /etc/profile.d/jdk.sh	2018-12-15 14:56:35.341505379 +0000
-I, [2018-12-15T20:26:35.815059 #9404]  INFO -- default-ubuntu-1804:     +++ /etc/profile.d/.chef-jdk20181215-1646-o766j0.sh	2018-12-15 14:56:35.337505277 +0000
-I, [2018-12-15T20:26:35.816324 #9404]  INFO -- default-ubuntu-1804:     @@ -1 +1,2 @@
-I, [2018-12-15T20:26:35.817732 #9404]  INFO -- default-ubuntu-1804:     +export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/
-I, [2018-12-15T20:26:35.818894 #9404]  INFO -- default-ubuntu-1804:     - change mode from '' to '0755'
-I, [2018-12-15T20:26:35.823403 #9404]  INFO -- default-ubuntu-1804:   * ruby_block[Set JAVA_HOME in /etc/environment] action run
-I, [2018-12-15T20:26:35.825296 #9404]  INFO -- default-ubuntu-1804:     - execute the ruby block Set JAVA_HOME in /etc/environment
-I, [2018-12-15T20:26:35.826492 #9404]  INFO -- default-ubuntu-1804:   * script[source /etc/environment] action run
-I, [2018-12-15T20:26:35.827870 #9404]  INFO -- default-ubuntu-1804:     - execute "bash"  "/tmp/chef-script20181215-1646-p77l0e"
-I, [2018-12-15T20:26:35.828944 #9404]  INFO -- default-ubuntu-1804: Recipe: server_setup::tomcat
-I, [2018-12-15T20:26:35.830195 #9404]  INFO -- default-ubuntu-1804:   * apt_update[update] action periodic (up to date)
-I, [2018-12-15T20:26:35.831329 #9404]  INFO -- default-ubuntu-1804:   * group[tomcat] action create
-I, [2018-12-15T20:26:35.832503 #9404]  INFO -- default-ubuntu-1804:     - create group tomcat
-I, [2018-12-15T20:26:35.833714 #9404]  INFO -- default-ubuntu-1804:   * linux_user[tomcat] action create
-I, [2018-12-15T20:26:35.834689 #9404]  INFO -- default-ubuntu-1804:     - create user tomcat
-I, [2018-12-15T20:26:35.835882 #9404]  INFO -- default-ubuntu-1804:   * directory[/opt/tomcat] action create
-I, [2018-12-15T20:26:35.838544 #9404]  INFO -- default-ubuntu-1804:     - create new directory /opt/tomcat
-I, [2018-12-15T20:26:35.841070 #9404]  INFO -- default-ubuntu-1804:     - change mode from '' to '0755'
-I, [2018-12-15T20:26:35.843474 #9404]  INFO -- default-ubuntu-1804:     - change owner from '' to 'tomcat'
-I, [2018-12-15T20:26:35.844508 #9404]  INFO -- default-ubuntu-1804:     - change group from '' to 'tomcat'
-I, [2018-12-15T20:26:35.845566 #9404]  INFO -- default-ubuntu-1804:   * tar_extract[http://archive.apache.org/dist/tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8.tar.gz] action extract
-I, [2018-12-15T20:26:35.846900 #9404]  INFO -- default-ubuntu-1804:     * directory[/tmp/kitchen/cache] action create (up to date)
-I, [2018-12-15T20:26:37.026840 #9404]  INFO -- default-ubuntu-1804:     * remote_file[apache-tomcat-9.0.8.tar.gz] action create
-I, [2018-12-15T20:26:37.210579 #9404]  INFO -- default-ubuntu-1804:       - create new file /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz
-I, [2018-12-15T20:26:37.634334 #9404]  INFO -- default-ubuntu-1804:       - update content in file /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz from none to 1ceedf
-I, [2018-12-15T20:26:37.638468 #9404]  INFO -- default-ubuntu-1804:       (new content is binary, diff output suppressed)
-I, [2018-12-15T20:26:37.640431 #9404]  INFO -- default-ubuntu-1804:       - change mode from '' to '0755'
-I, [2018-12-15T20:26:37.643622 #9404]  INFO -- default-ubuntu-1804:       - change owner from '' to 'root'
-I, [2018-12-15T20:26:37.644968 #9404]  INFO -- default-ubuntu-1804:       - change group from '' to 'root'
-I, [2018-12-15T20:26:37.646603 #9404]  INFO -- default-ubuntu-1804:     * directory[/opt/tomcat] action create (up to date)
-I, [2018-12-15T20:26:37.648086 #9404]  INFO -- default-ubuntu-1804:     * execute[extract /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz] action run
-I, [2018-12-15T20:26:37.650633 #9404]  INFO -- default-ubuntu-1804:       - execute tar xfz /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz -P --strip-components 1
-I, [2018-12-15T20:26:37.653304 #9404]  INFO -- default-ubuntu-1804:     * execute[extract /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz] action run
-I, [2018-12-15T20:26:37.656532 #9404]  INFO -- default-ubuntu-1804:       - execute tar xfz /tmp/kitchen/cache/apache-tomcat-9.0.8.tar.gz -P --strip-components 1
-I, [2018-12-15T20:26:37.658808 #9404]  INFO -- default-ubuntu-1804:   
-I, [2018-12-15T20:26:37.660733 #9404]  INFO -- default-ubuntu-1804:   * script[change required permissions] action run
-I, [2018-12-15T20:26:37.663267 #9404]  INFO -- default-ubuntu-1804:     - execute "bash"  "/tmp/chef-script20181215-1646-cjyk2x"
-I, [2018-12-15T20:26:37.664444 #9404]  INFO -- default-ubuntu-1804:   * template[/etc/systemd/system/tomcat.service] action create
-I, [2018-12-15T20:26:37.667004 #9404]  INFO -- default-ubuntu-1804:     - create new file /etc/systemd/system/tomcat.service
-I, [2018-12-15T20:26:37.668674 #9404]  INFO -- default-ubuntu-1804:     - update content in file /etc/systemd/system/tomcat.service from none to 160876
-I, [2018-12-15T20:26:37.681332 #9404]  INFO -- default-ubuntu-1804:     --- /etc/systemd/system/tomcat.service	2018-12-15 14:56:37.753566912 +0000
-I, [2018-12-15T20:26:37.683282 #9404]  INFO -- default-ubuntu-1804:     +++ /etc/systemd/system/.chef-tomcat20181215-1646-1lagcsd.service	2018-12-15 14:56:37.753566912 +0000
-I, [2018-12-15T20:26:37.694900 #9404]  INFO -- default-ubuntu-1804:     @@ -1 +1,26 @@
-I, [2018-12-15T20:26:37.696782 #9404]  INFO -- default-ubuntu-1804:     +[Unit]
-I, [2018-12-15T20:26:37.699629 #9404]  INFO -- default-ubuntu-1804:     +Description=Apache Tomcat Web Application Container
-I, [2018-12-15T20:26:37.703027 #9404]  INFO -- default-ubuntu-1804:     +After=network.target
-I, [2018-12-15T20:26:37.706161 #9404]  INFO -- default-ubuntu-1804:     +
-I, [2018-12-15T20:26:37.710802 #9404]  INFO -- default-ubuntu-1804:     +[Service]
-I, [2018-12-15T20:26:37.712298 #9404]  INFO -- default-ubuntu-1804:     +Type=forking
-I, [2018-12-15T20:26:37.714438 #9404]  INFO -- default-ubuntu-1804:     +
-I, [2018-12-15T20:26:37.715925 #9404]  INFO -- default-ubuntu-1804:     +Environment=JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/
-I, [2018-12-15T20:26:37.717330 #9404]  INFO -- default-ubuntu-1804:     +Environment=CATALINA_PID=/opt/tomcat/temp/tomcat.pid
-I, [2018-12-15T20:26:37.719775 #9404]  INFO -- default-ubuntu-1804:     +Environment=CATALINA_HOME=/opt/tomcat
-I, [2018-12-15T20:26:37.723892 #9404]  INFO -- default-ubuntu-1804:     +Environment=CATALINA_BASE=/opt/tomcat
-I, [2018-12-15T20:26:37.726170 #9404]  INFO -- default-ubuntu-1804:     +Environment='CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC'
-I, [2018-12-15T20:26:37.729619 #9404]  INFO -- default-ubuntu-1804:     +Environment='JAVA_OPTS=-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom'
-I, [2018-12-15T20:26:37.731752 #9404]  INFO -- default-ubuntu-1804:     +
-I, [2018-12-15T20:26:37.733562 #9404]  INFO -- default-ubuntu-1804:     +ExecStart=/opt/tomcat/bin/startup.sh
-I, [2018-12-15T20:26:37.735290 #9404]  INFO -- default-ubuntu-1804:     +ExecStop=/opt/tomcat/bin/shutdown.sh
-I, [2018-12-15T20:26:37.738006 #9404]  INFO -- default-ubuntu-1804:     +
-I, [2018-12-15T20:26:37.739741 #9404]  INFO -- default-ubuntu-1804:     +User=tomcat
-I, [2018-12-15T20:26:37.743233 #9404]  INFO -- default-ubuntu-1804:     +Group=tomcat
-I, [2018-12-15T20:26:37.744853 #9404]  INFO -- default-ubuntu-1804:     +UMask=0007
-I, [2018-12-15T20:26:37.746334 #9404]  INFO -- default-ubuntu-1804:     +RestartSec=10
-I, [2018-12-15T20:26:37.747423 #9404]  INFO -- default-ubuntu-1804:     +Restart=always
-I, [2018-12-15T20:26:37.749416 #9404]  INFO -- default-ubuntu-1804:     +
-I, [2018-12-15T20:26:37.752007 #9404]  INFO -- default-ubuntu-1804:     +[Install]
-I, [2018-12-15T20:26:37.755422 #9404]  INFO -- default-ubuntu-1804:     +WantedBy=multi-user.target
-I, [2018-12-15T20:26:37.761641 #9404]  INFO -- default-ubuntu-1804:   * execute[daemon-reload] action run
-I, [2018-12-15T20:26:37.763248 #9404]  INFO -- default-ubuntu-1804:     - execute systemctl daemon-reload
-I, [2018-12-15T20:26:37.764466 #9404]  INFO -- default-ubuntu-1804:   * service[tomcat] action enable
-I, [2018-12-15T20:26:37.764796 #9404]  INFO -- default-ubuntu-1804:     - enable service service[tomcat]
-I, [2018-12-15T20:26:37.766833 #9404]  INFO -- default-ubuntu-1804:   * service[tomcat] action start
-I, [2018-12-15T20:26:37.767371 #9404]  INFO -- default-ubuntu-1804:     - start service service[tomcat]
-I, [2018-12-15T20:26:37.897391 #9404]  INFO -- default-ubuntu-1804: 
-I, [2018-12-15T20:26:37.900574 #9404]  INFO -- default-ubuntu-1804: Running handlers:
-I, [2018-12-15T20:26:37.904921 #9404]  INFO -- default-ubuntu-1804: Running handlers complete
-I, [2018-12-15T20:26:37.909010 #9404]  INFO -- default-ubuntu-1804: Chef Client finished, 19/26 resources updated in 01 minutes 02 seconds
-I, [2018-12-15T20:26:37.911670 #9404]  INFO -- default-ubuntu-1804: Downloading files from <default-ubuntu-1804>
-I, [2018-12-15T20:26:37.992588 #9404]  INFO -- default-ubuntu-1804: Finished converging <default-ubuntu-1804> (2m32.43s).

@@ -13,7 +13,7 @@ bin/*
 .bundle/*
 
 # test kitchen
-.kitchen/
+.kitchen
 .kitchen.local.yml
 .kitchen.yml
 
