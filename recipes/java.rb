@@ -1,5 +1,7 @@
 
-apt_update 'update'
+apt_update 'update' do
+  options '-y'
+end
 
 apt_package 'default-jre' do
   action :install
