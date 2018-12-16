@@ -15,7 +15,7 @@ bin/*
 # test kitchen
 .kitchen/
 .kitchen.local.yml
-.kithcen.yml
+.kitchen.yml
 
 # Chef
 Berksfile.lock
