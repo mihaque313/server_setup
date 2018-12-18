@@ -6,3 +6,4 @@
 
 include_recipe 'server_setup::install_java'
 include_recipe 'server_setup::install_tomcat'
+include_recipe 'server_setup::install_postsql'
